@@ -18,6 +18,7 @@ body {
   font: var(--heading1);
   display:flex;
   justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -32,7 +33,18 @@ input {
   box-shadow: 0px 4px 18px rgba(158, 168, 189, 0.31);
   border-radius: 10px;
   padding-block: 10px;
+  padding-inline: 0.5rem;
+  width:100%;
+  box-sizing: border-box;
+}
 
+h6 {
+  margin:0;
+  text-align: center;
+  color: var(--grey);
+  font-size: 12px;
+  font-family: var(--text2regular);
+  margin-top: 8px;
 }
 
 .pay-form {
